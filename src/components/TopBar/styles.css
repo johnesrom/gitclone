@@ -1,0 +1,7 @@
+.navbar {
+    border-bottom: solid 1px rgb(230, 230, 230);
+}
+
+#navbarNavDropdown ul li a{
+    font-weight: 700;
+}

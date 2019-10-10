@@ -1,0 +1,112 @@
+.container_ {
+    background-color: #fafbfc;
+}
+
+#d_description span {
+    color: #6f6f6f;
+    font-size: 14px;
+}
+
+#cr-1 {
+    position: relative;
+    widows: 100%;
+    padding: 20px 0 20px 0;
+    display: flex;
+}
+
+#cr-1 img {
+    width: 100px;
+    height: 95px;
+    margin-right: 20px;
+}
+
+#cr-1 #cr-s-1 { 
+    width: 100%;
+}
+
+#cr-1 #cr-s-1 ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+#cr-1 #cr-s-1 ul li {
+   display: inline;
+   margin-right: 20px;  
+}
+
+#cr-1 #cr-s-1 ul li span{
+    font-weight: 400;
+    font-size: 12px; 
+ }
+
+#cr-1 #cr-s-1 {
+    padding: 10px;
+}
+
+#cr-1 #cr-s-1 {
+    padding: 10px;
+}
+
+/* ############ */
+
+#cr-2 {
+    position: relative;
+    width: 100%;
+}
+
+#cr-2 ul {
+    padding: 10px 0;
+    margin-bottom: 0 !important;
+}
+
+#cr-2 ul li {
+    display: inline;
+    margin-right: 20px;
+    border-top: 1px solid #f1f1f1;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    padding: 10px 0;  
+}
+
+#cr-2 ul li.active {
+    border-top: 2px solid #e3620e;
+}
+
+#cr-2 ul li:hover {
+    border-top: 2px solid #e3620e;
+}
+
+#cr-2 ul li a{
+    padding: 10px 8px;
+    text-decoration:none;
+    color: #222;
+    font-weight: 600;
+}
+
+/* ############ */
+
+.container_body {
+    position: relative;
+    margin-top: 50px;
+}
+
+.card_repo {
+    margin-bottom: 10px;
+}
+
+.card_repo .card-body h5.card-title {
+    font-size: 16px;
+    font-weight: 800;
+    color: #333;
+}
+
+.card_repo .card-body h5.card-title a{
+    text-decoration: none;
+    color: #1364e8;
+    opacity: 0.8;
+}
+
+.card_repo .card-body h5.card-title a:hover{
+    opacity: 1;
+}
